@@ -25,22 +25,33 @@ public class BaseConfiguration {
 
 	@Keyword
 	static def getBaseConfiguration() {
-		String WEB_URL = GlobalVariable.G_BaseURL
-		String USERNAME = GlobalVariable.G_Username_Staff
-		String PASSWORD = GlobalVariable.G_Password_Staff
-		Integer DELAY = GlobalVariable.G_Delay_Duration
-		Integer TIMEOUT = GlobalVariable.G_Timeout_Duration
-		String PROJECTPATH = RunConfiguration.getProjectDir()
-		String SCREENSHOTPATH = GlobalVariable.G_Screenshot_Path
+		String 	WEB_URL 			= GlobalVariable.G_BaseURL?.toString()?.trim()
+		String	USERNAME_STAFF 		= GlobalVariable.G_Username_Staff?.toString()?.trim()
+		String 	PASSWORD_STAFF 		= GlobalVariable.G_Password_Staff?.toString()?.trim()
+		String	USERNAME_SPV		= GlobalVariable.G_Username_SPV?.toString()?.trim()
+		String	PASSWORD_SPV		= GlobalVariable.G_Password_SPV?.toString()?.trim()
+		Integer DELAY_DURATION 		= (GlobalVariable.G_Delay_Duration != null ? (GlobalVariable.G_Delay_Duration as Number).intValue() : 2)
+		Integer TIMEOUT_DURATION 	= (GlobalVariable.G_Timeout_Duration != null ? (GlobalVariable.G_Timeout_Duration as Number).intValue() : 30)
+		String 	PROJECTPATH 		= RunConfiguration.getProjectDir()
+		String 	SCREENSHOTPATH 		= GlobalVariable.G_Screenshot_Path
+
+		assert WEB_URL			: "WEB_URL belum diisi!"
+		assert USERNAME_STAFF	: "USERNAME_STAFF belum diisi!"
+		assert PASSWORD_STAFF	: "PASSWORD_STAFF belum diisi!"
+		assert USERNAME_SPV		: "USERNAME_SPV belum diisi!"
+		assert PASSWORD_SPV		: "PASSWORD_SPV belum diisi!"
 
 		return [
-			web_url:WEB_URL,
-			username: USERNAME,
-			password: PASSWORD,
-			delay: DELAY,
-			timeout : TIMEOUT,
-			projectPath : PROJECTPATH,
-			screenshotPath : SCREENSHOTPATH
+			web_url						: WEB_URL,
+			username_staff				: USERNAME_STAFF,
+			password_staff				: PASSWORD_STAFF,
+			username_spv				: USERNAME_SPV,
+			password_spv				: PASSWORD_SPV,
+			delay_duration				: DELAY_DURATION,
+			timeout_duration			: TIMEOUT_DURATION,
+			projectpath					: PROJECTPATH,
+			screenshotpath				: SCREENSHOTPATH
+
 		]
 	}
 }

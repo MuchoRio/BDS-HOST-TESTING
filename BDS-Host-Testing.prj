@@ -6,12 +6,12 @@
    <UUID>b3647434-68bc-408e-9f30-3fc751cee28d</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.2.2</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.2.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\BDS-Host-Testing\BDS-Host-Testing.prj</projectFileLocation>
+   <projectFileLocation>/Users/h25060008/Downloads/BDS-HOST-TESTING/BDS-Host-Testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

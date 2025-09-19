@@ -21,16 +21,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class GenerateNumberHelper {
-	
-	 @Keyword
-    static String generateRandomNumber(int length = 10) {
-        Random rand = new Random()
-        StringBuilder sb = new StringBuilder()
-        
-        for (int i = 0; i < length; i++) {
-            sb.append(rand.nextInt(10)) // angka 0-9
-        }
-        
-        return sb.toString()
-    }
+
+	@Keyword
+	static String generateRandomNumber(int length = 10) {
+		Random rand = new Random()
+		StringBuilder sb = new StringBuilder()
+
+		for (int i = 0; i < length; i++) {
+			sb.append(rand.nextInt(10)) // angka 0-9
+		}
+
+		return sb.toString()
+	}
 }
