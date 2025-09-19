@@ -44,7 +44,7 @@ ScreenshotHelper.takeScreenshotPath(screenshotPath, '01.png')
 
 WebUI.click(findTestObject('Object Repository/Dashboard/Setor Tunai/Page_Bank Mega Branch/02. Option-Type Rate'))
 
-WebUI.delay(delay)
+WebUI.delay(delay) //
 
 ScreenshotHelper.takeScreenshotPath(screenshotPath, '02.png')
 
