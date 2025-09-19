@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P-TC - Login - Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bca78c9d-26d5-45ef-bada-c5ad4ef4b318</testCaseGuid>
+</TestCaseEntity>

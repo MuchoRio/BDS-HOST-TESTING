@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>02. Button-Submit</name>
+   <tag></tag>
+   <elementGuidId>ec918086-195b-4c87-aa3e-987ec2d3d850</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-footer.fast-submit.py-1 > div.row.justify-content-center > div.col-auto > button.btn.btn-sm.btn-primary.submit-tran</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@value='submit-json'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Submit Transaksi&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4118bcbf-33e1-4c92-baef-db4f44bd1219</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-primary submit-tran</value>
+      <webElementGuid>32f7070a-9563-486d-9954-f326979b802a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9807ae89-43d4-48cc-a7c7-3a2220d4238f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>submit-json</value>
+      <webElementGuid>774a4cbc-e219-400b-bbc6-90239c86070c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit
+                    Transaksi</value>
+      <webElementGuid>0c505d22-bda7-4c06-be99-c03f55a89d4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;desktop&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col Lmr-3&quot;]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fast-main&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-footer fast-submit py-1&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-auto&quot;]/button[@class=&quot;btn btn-sm btn-primary submit-tran&quot;]</value>
+      <webElementGuid>c9871a05-83d9-4138-a24d-d44cf40b8060</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@value='submit-json'])[2]</value>
+      <webElementGuid>2e2bb13a-253e-491f-8bd5-7c5cbb6d2ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks'])[2]/following::button[1]</value>
+      <webElementGuid>e4e31bfd-aab8-480d-ba4f-079efd9a8830</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nominal yang Didebet dari Rekening'])[1]/following::button[1]</value>
+      <webElementGuid>f32e2227-6a60-4c22-b6a0-fae565e27796</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing: 4 of 4'])[1]/preceding::button[1]</value>
+      <webElementGuid>ccfaab75-257a-4437-b0f1-2e3aa8b7e637</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='#'])[1]/preceding::button[1]</value>
+      <webElementGuid>7c566e84-dec4-4dac-b55b-2a9a5a07a84c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div[3]/div/div/button</value>
+      <webElementGuid>679151fb-ad69-4d50-8dad-cc68488b91de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Submit
+                    Transaksi' or . = 'Submit
+                    Transaksi')]</value>
+      <webElementGuid>d80b6f45-e20b-42f3-8b07-26a8090cfc89</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>P-TC - Setor Tunai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4c97373c-0caf-4c9a-b2bb-1b93e4b0046a</testCaseGuid>
+</TestCaseEntity>

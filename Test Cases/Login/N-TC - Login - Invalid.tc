@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>N-TC - Login - Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7f17817-29b1-4799-a3cc-442d2aac8660</testCaseGuid>
+</TestCaseEntity>
